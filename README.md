@@ -3,14 +3,12 @@
 
 ### Arquitecturas de Software
 
+## Laboratorio API REST adaptable para el cálculo de cuentas de restaurantes.
 
 ### Dependencias
 * [Ejercicio introductorio al manejo de Spring y la configuración basada en anotaciones](https://github.com/ARSW-ECI-beta/DIP_DI-SPRING_JAVA-GRAMMAR_CHECKER).
 
 ### Descripción
-
-
-##### API REST adaptable para el cálculo de cuentas de restaurantes.
 
 En este proyecto se va a construír un API REST que permita calcular el valor total de una cuenta de restaurante, teniendo en cuenta las políticas y regímenes tributarios configurados para la misma.
 
@@ -152,13 +150,5 @@ Por defecto, el manejador de órdenes tiene dos órdenes registradas para las me
 	* Muchos clientes del API podrán consultar cuentas, consultar totales, modificar y cerrar cuentas concurrentemente.
 Escriba su análisis en el archivo ANALISIS_CONCURRENCIA.txt
 
-	
-<!--### Criterios de evaluación
-
-1. Se pueden crear nuevas órdenes, mediante POST.
-2. Se puede calcular el valor de la orden, mediante GET.
-3. La aplicación permite cambiar la estrategia de cálculo del valor de la orden (cambiando las anotaciones @Service).
-4. La aplicación permite actualizar las órdenes mediante PUT.
-5. En análisis de las posibles condiciones de carrera es consistente.-->
 
 
